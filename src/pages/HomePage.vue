@@ -21,6 +21,23 @@
 
       </div>
     </section>
+    <section class="row">
+      <div class=" column">
+        <img class="project-image"
+          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+          alt="" style="width: 100%;">
+      </div>
+      <div class="column">
+        <img class="project-image"
+          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+          alt="" style="width: 100%;">
+      </div>
+      <div class="column">
+        <img class="project-image"
+          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+          alt="" style="width: 100%;">
+      </div>
+    </section>
     <section class="row d-flex justify-content-center align-items-center">
       <div class="col-4 m-4 p-5">
         <img class="img-fluid bio-image"
@@ -69,5 +86,20 @@ export default {
   object-fit: cover;
   position: center;
   border-radius: 7px;
+  border: 3px solid black;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 7px;
+}
+
+.project-image {
+  border-radius: 7px;
+  border: solid black 3px;
+
 }
 </style>

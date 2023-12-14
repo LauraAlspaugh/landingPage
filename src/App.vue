@@ -7,8 +7,8 @@
     <router-view />
 
   </main>
-  <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
+  <footer class="text-dark">
+    <p class="m-5 fs-5"><i class="mdi mdi-copyright"></i> 2023 by Laura Alspaugh.</p>
   </footer>
 </template>
 
@@ -37,6 +37,7 @@ export default {
 footer {
   display: grid;
   place-content: center;
-  height: 32px;
+  height: 50px;
+  background-color: white;
 }
 </style>
