@@ -38,6 +38,6 @@ footer {
   display: grid;
   place-content: center;
   height: 50px;
-  background-color: white;
+  background-color: #A97142;
 }
 </style>

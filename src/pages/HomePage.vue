@@ -9,7 +9,7 @@
       </div>
 
     </section>
-    <section class="row d-flex justify-content-center">
+    <section class="row d-flex justify-content-center mb-5">
       <div class="col-12">
         <p class="text-center p-3 main-text">The Approach</p>
       </div>
@@ -21,21 +21,30 @@
 
       </div>
     </section>
-    <section class="row">
+    <section class="row ">
       <div class=" column">
         <img class="project-image"
-          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+          src="https://plus.unsplash.com/premium_photo-1669374537636-518629de3b85?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="" style="width: 100%;">
+        <p class="fs-5 p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolorum ipsum vitae
+          possimus,
+          voluptatum similique deleniti tempora sunt optio animi.</p>
       </div>
       <div class="column">
         <img class="project-image"
-          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+          src="https://plus.unsplash.com/premium_photo-1669374537636-518629de3b85?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="" style="width: 100%;">
+        <p class="fs-5 p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolorum ipsum vitae
+          possimus,
+          voluptatum similique deleniti tempora sunt optio animi.</p>
       </div>
       <div class="column">
         <img class="project-image"
-          src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww"
+          src="https://plus.unsplash.com/premium_photo-1669374537636-518629de3b85?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="" style="width: 100%;">
+        <p class="fs-5 p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolorum ipsum vitae
+          possimus,
+          voluptatum similique deleniti tempora sunt optio animi.</p>
       </div>
     </section>
     <section class="row d-flex justify-content-center align-items-center">
@@ -67,7 +76,7 @@ export default {
 
 <style scoped lang="scss">
 .main-image {
-  background-image: url("https://images.unsplash.com/photo-1563419837758-e48ef1b731dd?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1629532566864-60f19d2c138e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZmZlZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,11 +104,13 @@ export default {
   float: left;
   width: 33.33%;
   padding: 7px;
+
 }
 
 .project-image {
   border-radius: 7px;
   border: solid black 3px;
+
 
 }
 </style>
